@@ -1,0 +1,39 @@
+img{
+	height: 125px;
+	width: 125px;
+	border-radius: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 5px;
+	/*margin-bottom: 5px;*/
+	/*padding-top: 10px;*/
+	/*padding-bottom: 10px;*/
+}
+
+#download{
+	margin: auto;
+}
+
+#profile-btn{
+	margin:10px;
+}
+.heading{
+	list-style: none;
+}
+
+.navbar-header p{
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+
+@media (min-width: 768px) {
+	#profile-btn{
+	  margin-top: 55px;
+	}
+	.navbar-form{
+		margin-top: 60px;
+	}
+	#searchbar{
+	  width: 400px;
+	}
+}
